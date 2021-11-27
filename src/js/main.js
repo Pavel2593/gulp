@@ -1,12 +1,9 @@
 import test from './test';
-import linkArticleList from './../templates/link-article-list/script.js';
-import benefitsList from './../templates/benefits/script.js';
-import reviewsList from './../templates/reviews/script.js';
-
-test();
+import header from './../templates/header/script.js';
+import footer from './../templates/footer/script.js';
 
 $(document).ready(function () {
-    linkArticleList();
-    benefitsList();
-    reviewsList();
+    test();
+    header();
+    footer();
 });
